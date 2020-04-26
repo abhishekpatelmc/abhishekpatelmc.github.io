@@ -113,7 +113,6 @@ h4 {
 
 @media screen and (max-width: 640px) {
     body {
-        border: 2px solid greenyellow;
         background-color: white;
         margin: 0;
         padding: 2%;
