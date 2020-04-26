@@ -113,15 +113,16 @@ h4 {
 
 @media screen and (max-width: 640px) {
     body {
+        border: 2px solid greenyellow;
         background-color: white;
         margin: 0;
-        padding: 20px;
+        padding: 2%;
     }
     .photo {
-        margin-top: 20%;
+        margin-top: 36%;
     }
     .photo img {
-        width: 60%;
+        width: 55%;
     }
     .name {
         /* border: 2px solid greenyellow; */
@@ -134,19 +135,20 @@ h4 {
         font-size: 2em;
     }
     h4 {
-        margin-top: -20px;
+        margin-top: -5%;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.9em;
-        padding: 10px;
+        padding: 2%;
         font-weight: 400;
         color: grey;
     }
     /* ---------TOP------------------ */
     #rightsmall {
-        width: 300px;
+        width: 80%;
         bottom: 0;
         right: 0 !important;
-        margin-right: 55%;
+        margin-right: 67%;
+        margin-top: -30%;
     }
     #rightbig {
         display: none;
@@ -156,26 +158,20 @@ h4 {
         display: none;
     }
     #leftsmall {
-        width: 300px;
+        width: 80%;
         bottom: 0;
         right: 0 !important;
-        margin-left: 50%;
-        
+        margin-left: 65%;
+        margin-bottom: -30%;
     }
     .links {
-        align-items: center;
-        display: block;
-        margin-top: 6%;
-        margin-left: 3%;
+        margin-left: 5%;
+        margin-top: 5%;
     }
     .icon {
-        
-        width: 55px;
-        height: auto;
-        margin-bottom: 20px;
+        width: 65%;
         transition: none;
     }
-
     .icon:hover {
         cursor: pointer;
         transform: none;
