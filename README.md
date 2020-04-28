@@ -4,5 +4,5 @@ http://abhishekpatelmc.github.io
 
 Welcome to GitHub Pages
 
-<img src="images/mypage.jpeg" width="1080">
+<img src="images/mypagepic.jpeg" width="1080">
 
