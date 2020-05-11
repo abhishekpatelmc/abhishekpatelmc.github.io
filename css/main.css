@@ -1,0 +1,327 @@
+body {
+    background-color: #0A192F;
+    color: white;
+    font-family: sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.total {
+    display: flex;
+}
+
+.text {
+    margin-top: 10%;
+    margin-left: 4%;
+}
+
+.name {
+    font-size: 2.2em;
+}
+
+.sub {
+    /* border: 2px solid greenyellow; */
+    /* padding: 0 35% 0 10% ; */
+    width: 50%;
+    margin-left: 10%;
+}
+
+.sub h4 {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+.profile_pic {
+    margin-top: 6%;
+    margin-left: 3%;
+}
+
+/* ================icons links===================== */
+
+.icon_image {
+    margin: -5% 0 0 1%;
+    /*top  right  bottom  left */
+    z-index: 3;
+    list-style-type: none;
+    position: relative;
+}
+
+.one {
+    width: 22%;
+    margin: 0 0 0 15%;
+}
+
+.one img {
+    margin: 0 2% 0 0;
+    /*top  right  bottom  left */
+}
+
+.two {
+    width: 22%;
+    margin: 0 0 0 17.7%;
+    /*top  right  bottom  left */
+}
+
+.two img {
+    margin: -3% 2% 0 0;
+    /*top  right  bottom  left */
+}
+
+.three {
+    width: 22%;
+    margin: 0 0 0 20.3%;
+    /*top  right  bottom  left */
+}
+
+.three img {
+    margin: -3% 2% 0 0;
+    /*top  right  bottom  left */
+}
+
+.icon_image img:hover {
+    transform: scale(1.5);
+    transition-duration: 100ms;
+}
+
+/* ====================Hexagons============== */
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: -10%;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 6.4%;
+    margin-right: -14%;
+}
+
+#topcorner {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20%;
+    transform: rotate(2deg);
+}
+
+#top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: -20.4%;
+    margin-right: 32%;
+}
+
+@media only screen and (min-height: 766px) {
+    .sub {
+        width: 50%;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+    .profile_pic {
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #bottom {
+        display: none;
+    }
+    #right {
+        display: none;
+    }
+    #topcorner {
+        display: none;
+    }
+    #top {
+        display: none;
+    }
+    .body::-webkit-scrollbar {
+        display: none;
+    }
+    .body {
+        -ms-overflow-style: none;
+    }
+    body {
+        overflow: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .total {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .text {
+        order: 1;
+       
+    }
+    .name {
+        margin-top: -10%;
+        font-size: 1.8em;
+    }
+    .sub {
+        width: 80%;
+    }
+    .sub h4 {
+        font-size: 1em;
+        font-weight: 200;
+    }
+    .profile_pic {
+        order: 2;
+        
+    }
+    .profile_pic img {
+        width: 50%;
+    }
+    .icon_image {
+        margin: 5% 0 0 0;
+        /*top  right  bottom  left */
+        z-index: 3;
+        list-style-type: none;
+        position: relative;
+    }
+    .one {
+        width: 75%;
+        margin: 0 0 0 15%;
+    }
+    .one img {
+        margin: 0 2% 0 0;
+        object-fit: cover;
+        /*top  right  bottom  left */
+    }
+    .two {
+        width: 75%;
+        margin: 0 0 0 22%;
+    }
+    .two img {
+        margin: 0 2% 0 0;
+        /*top  right  bottom  left */
+    }
+    .three {
+        width: 75%;
+        margin: 0 0 0 15%;
+    }
+    .three img {
+        margin: 0 2% 0 0;
+        /*top  right  bottom  left */
+    }
+    .icon_image img:hover {
+        transform: scale(1.5);
+        transition-duration: 100ms;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .two {
+        width: 75%;
+        margin: 0 0 0 19%;
+    }
+    .two img {
+        margin: 0 2% 0 0;
+        /*top  right  bottom  left */
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+    .profile_pic img {
+        width: 30%;
+    }
+    .two {
+        width: 75%;
+        margin: 0 0 0 18%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile_pic img {
+        width: 40%;
+    }
+    .two {
+        width: 75%;
+        margin: 0 0 0 20%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .two {
+        width: 75%;
+        margin: 0 0 0 22%;
+    }
+    .icon_image img {
+        width: 55px;
+    }
+    .name {
+        margin-top: -10%;
+        font-size: 1.3em;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .two {
+        width: 75%;
+        margin: 0 0 0 23%;
+    }
+    .icon_image img {
+        width: 55px;
+    }
+    .name {
+        font-size: 1.3em;
+    }
+}
+
+
+@media only screen and (max-width: 400px) {
+    .profile_pic img {
+        width: 45%;
+    }
+    .name {
+        font-size: 1.5em;
+    }
+    .icon_image img {
+        width: 50px;
+    }
+    .sub h4 {
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+    .two {
+        width: 75%;
+        margin: 0 0 0 23%;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .profile_pic img {
+        width: 45%;
+    }
+    .name {
+         margin-top: -10%;
+        font-size: 1.4em;
+    }
+    .icon_image img {
+        width: 50px;
+    }
+    .sub h4 {
+        font-size: 0.8em;
+        font-weight: 200;
+    }
+    
+    .one {
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+    .two {
+        width: 80%;
+        margin: 0 0 0 18%;
+    }
+    .three {
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+}
