@@ -1,5 +1,5 @@
 body {
-    background-color: #0A192F;
+    background-color: #212121;
     color: white;
     font-family: sans-serif;
     overflow: hidden;
@@ -88,8 +88,8 @@ body {
 #bottom {
     position: absolute;
     bottom: 0;
-    right: 0;
-    margin-bottom: -10%;
+    right: -1%;
+    margin-bottom: -11%;
 }
 
 #right {
@@ -98,14 +98,15 @@ body {
     top: 0;
     margin-top: 6.4%;
     margin-right: -14%;
+    transform: rotate(3deg);
 }
 
 #topcorner {
     position: absolute;
-    right: 0;
+    right: -1%;
     top: 0;
     margin-top: -20%;
-    transform: rotate(2deg);
+    transform: rotate(5deg);
 }
 
 #top {
