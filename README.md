@@ -1,8 +1,8 @@
 # Welcome to my GitHub
-## profile_v2
+## Current Profile
 
 Welcome to my profile 
 
 https://abhishekpatelmc.github.io
 
-<img src = "assets/profile_v2.png" width=1080>
+<img src = "assets/profile.png" width=1080>
